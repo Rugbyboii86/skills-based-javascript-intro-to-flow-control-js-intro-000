@@ -1,8 +1,10 @@
-function basicTeenager(age) {
-
+function basicTeenager(age) {if (age === '13-19'){
+return "You are a teenager!"
 }
-function teenager(age) {
-
+function teenager(age) {if (age === "13-19"){ return "You are a teenager!"}
+else if (false) {return "You are not a teenager!"
+  
+}
 }
 
 function ageChecker(age) {
